@@ -1,0 +1,53 @@
+###########################################################################################################################################
+###########################################################################################################################################
+#############################################_______________DONE_________________##########################################################
+###########################################################################################################################################
+###########################################################################################################################################
+
+HARDCORE
+* Limit the world size (above y=64 glass, under y=64 bedrock)
+* Divide the players over the map (I cannot prevent with my system that in larger maps there are (sometimes) not enough spots for all the players to spawn. this requires reinitiating with more players (hasn't been tested yet) or (better) choosing a new world. If it is a real problem (I can't really test this without many players) I'll change my system.
+* Circle World
+* Graves upon death (possible that a graveyard arise when multiple players try to get the loot of a player - the loot is put in chests under the grave and coordinates are given to all players).
+* Podium when there is a winner (at winners location; on surface) and teleports everbody to the podium
+* Reward for the winner: some diamonds (an something special for some players, kind of easter egg). Other players can send me a message with the reward of their choice (one item)
+* Change some of the standard resources: For the moment only pumpkins to gold blocks. (More is possible on request)
+* World information: size and some ore counts
+* Resets player hearts, hunger, inventory, xp and set time 0 (doesn't butcher)
+* Message when somebody takes damage (cause is not specified because I need to figure something out; E.g. I don't yet know how to find out which mob attacked you. I only know you got attacked by a mob).
+* Lower the world size. (every X minutes with X blocks; adjustable)
+* putting chests out (during the game) to promote walking on surface (5 minutes after the chest is placed, a message is displayed with the rough coordinates of the chest to create some battlefields)
+
+###########################################################################################################################################
+###########################################################################################################################################
+####################################_______________FEATURES (FOR LATER_________________####################################################
+###########################################################################################################################################
+###########################################################################################################################################
+* Generate the world for real!
+
+* Increase/Decrease gold/diamond/iron ore (Make diamond ore spawn above y=64, in mountains)
+* save hardcore options / add some presets
+* reveal coordinates every X minutes.
+
+* I need to figure out how to add color to the messages since I can't at the moment
+
+* sets golden armor for spectators
+* Sending message every x minutes (with stats? of players and/or number of ores left: E.g. caske33 3 hearts, 5 armor; This world hides 3 diamond, 21 iron and 1 gold.)
+* Keeping stats: who did most damage, who took most damage (in normal hardcore), who found most resources (don't know if this is possible), who was most on surface (this would probably be the plugin checkking every so often which players are on surface; so not very accurate), ...
+* Change drops. Eg. sheep drop usefull items instead of wool. (Disable breeding?)
+* 'Players currently within range'-messages
+* Kill / Loot (E.g. lapus blocks placed in special shape) is worth (random) information
+
+* Custom death messages (I need to figure something out about damagecause)
+
+###########################################################################################################################################
+###########################################################################################################################################
+####################################_______________IMPOSSIBLE/UNNECESSARY_________________#################################################
+###########################################################################################################################################
+###########################################################################################################################################
+
+* ensure a netress fortress? (I don't know if it's possible though, should check)
+* Limit the Nether (I need to figure some stuff out for this, like how the coordinate conversion from normal world to nether world is done)
+* Signs where people start (with their name on; maybe underground)
+* Option in configuration for when player is out of border when size is lowered: kill the player or teleport the player. (Now the player is teleported back in)
+* Ultra Hardcore options (other recipe, no healing but...)

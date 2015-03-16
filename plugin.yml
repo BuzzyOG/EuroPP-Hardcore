@@ -1,0 +1,19 @@
+name: Hardcore
+main: me.caske33.hardcore.Plugin
+version: 1.1
+description: A hardcore plugin for EuroPP Servers.
+commands: 
+ hcin:
+  description: initiates the game (generates the world and starts the countdown).
+ hcwg:
+  description: Generates the world for a game
+ hccd:
+  description: Starts the countdown for the game
+ hcreg:
+  description: registers you for the game
+ hcunreg:
+  description: unregisters you for the game
+ hco:
+  description: sets options for hardcore
+ hcend:
+  description: creates an end scene

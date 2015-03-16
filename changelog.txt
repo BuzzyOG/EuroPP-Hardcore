@@ -1,0 +1,33 @@
+Changelog
+
+v1.1.1
+* Removed general commands out of this plugin and changed this to pure hardcore plugin.
+* Changed 'martinbrooke' to 'martinbrook'
+
+v1.1
+* Improved Hardcore initiating
+* splitted 'initiate (hcin)' in 'generateWorld (hcwg)' and 'countdown (hccd)'
+* added a countdown to the rfw command.
+* added option cw ('chestworld'): this will put loot chests at y=120 to see which loot they can contain.
+* added waterborder as an option. (It used to be fixed there, now it's off but you can set it on and change the width and length). Not recommended (it changes many blocks)
+* add end battle scene (and hcend command; duration and durationWarning options). hcend is simply for if you want to end before duration or if duration wasn't set.
+
+v1.0
+HARDCORE
+* Limit the world size (above y=64 glass, under y=64 bedrock)
+* Divide the players over the map (I cannot prevent with my system that in larger maps there are (sometimes) not enough spots for all the players to spawn. this requires reinitiating with more players (hasn't been tested yet) or (better) choosing a new world. If it is a real problem (I can't really test this without many players) I'll change my system.
+* Circle World
+* Graves upon death (possible that a graveyard arise when multiple players try to get the loot of a player - the loot is put in chests under the grave and coordinates are given to all players).
+* Podium when there is a winner (at winners location; on surface) and teleports everbody to the podium
+* Reward for the winner: some diamonds (an something special for some players, kind of easter egg). Other players can send me a message with the reward of their choice (one item)
+* Change some of the standard resources: For the moment only pumpkins to gold blocks. (More is possible on request)
+* World information: size and some ore counts
+* Resets player hearts, hunger, inventory, xp and set time 0 (doesn't butcher)
+* Message when somebody takes damage (cause is not specified because I need to figure something out; E.g. I don't yet know how to find out which mob attacked you. I only know you got attacked by a mob).
+* Lower the world size. (every X minutes with X blocks; adjustable)
+* putting chests out (during the game) to promote walking on surface (5 minutes after the chest is placed, a message is displayed with the rough coordinates of the chest to create some battlefields)
+OTHER
+* gm: toggles your gamemode
+* tpc [x] [z]: teleports you to x and z coordinates (highest block at those coordinates)
+* rfw: heals all players, resets hunger, set time 0, butcher (drops and mobs)
+* ci: clears your inventory
